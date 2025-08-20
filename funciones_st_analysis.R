@@ -11,7 +11,6 @@ library(pheatmap)
 library(ggExtra)
 library(CARD)
 library(STdeconvolve)
-library(CARD)
 library(pbmcapply)
 library(SingleCellExperiment)
 library(MuSiC)
@@ -241,6 +240,7 @@ save_corr_plot <- function(mat, filename, colLabs, rowLabs, title) {
   print(p)
   dev.off()
 }
+
 
 
 
